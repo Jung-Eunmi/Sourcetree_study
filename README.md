@@ -96,7 +96,7 @@ horseNum 값이 '2' 일때는 speedThird = 0; 을 하여 장애물에 걸린 3�
 
 그 안에 if 문을 써서 speedSecond,speedThird 값도 마찬가지로 1000이상일 경우 공동승리문구가 나올수 있도록 하였다.
 
-else if 로 마찬가지로 speedSecond과 speedThird 도 1000 이상일 경우 승리문구가 나오게하였다.
+else if 로 마찬가지로 speedSecond과 speedThird 도 1000 이상일 경우 승리문구와 공동승리 문구가 나오게하였다.
 
 **horseCRT1,2,3 메소드** 는 말의 이모티콘의 위치를 변경하기 위해서 
 if 문으로 빈 문자열을 사용하여 100~ 1000 까지 위치가 다르도록 설정해놓았다. 
