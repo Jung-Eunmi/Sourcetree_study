@@ -50,6 +50,8 @@ private 접근제한자를 써서
 
 900이하 일때, Random 클래스로 정수 0부터 3개를 랜덤하게 하여 horseNum 라는 변수에 값을 넣어주었다.  
 
+그 안에 swtich 문을 이용하여,
+
 horseNum 값이 '0' 일때는 speedFrist 변수인 1번말의 스피드를 +100 만큼 올려준 후 break 를 걸어주고,
 
 horseNum 값이 '1' 일때는 speedSecond 변수인 2번말의 스피드를 +100 만큼 올려준 후 break 를 걸어주고,
@@ -63,7 +65,7 @@ horseNum 값이 '2' 일때는 speedThird인 3번말의 스피드를 +100 만큼 
 
 **horseDown 메소드**에도 마찬가지로 조건문 if 문으로 speedFirst,speedSecond,speedThird가 
 
-900이하 일때, 랜덤한 값을 넣은 horseNum 변수를 선언하고,
+900이하 일때, 랜덤한 값을 넣은 horseNum 변수를 선언하고 그 안에 swtich 문을 이용하여,
 
 horseNum 값이 '0' 일때는 장애물에 걸린 speedFrist을 제외하고 speedThird,speedSecond 2,3번 말에만 스피드를 +100 만큼 올려주어 break 를 걸어주고,
 
@@ -78,7 +80,7 @@ horseNum 값이 '2' 일때는 장애물에 걸린 speedThird 제외하고 speedF
 
 **horseOut 메소드**에도 마찬가지로 조건문 if 문으로 speedFirst,speedSecond,speedThird가 
 
-900이하 일때, 랜덤한 값을 넣은 horseNum 변수를 선언하고,
+900이하 일때, 랜덤한 값을 넣은 horseNum 변수를 선언하고 그 안에 swtich 문을 이용하여,
 
 horseNum 값이 '0' 일때는 speedFirst = 0; 을 하여 장애물에 걸린 1번말의 스피드를 0으로 초기화시킨 후 break 를 걸어주고,
 
