@@ -1,2 +1,2 @@
-# Sourcetree_study
-Sourcetree 공부용
+# study
+공부용
