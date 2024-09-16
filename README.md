@@ -26,7 +26,14 @@
 **<Gamer 클래스>**
 
 Horse 클래스를 호출하여 캡슐화 해 놓고,
-객체 간의 상호작용을 할 수 있도록 해주었다.
+
+go 메소드에 Horse클래스의 horseGo 메소드를 호출하였고,
+
+down 메소드에 Horse클래스의 horseDown 메소드를 호출하였고,
+
+out 메소드에 Horse클래스의 horseOut 메소드를 호출하였고,
+
+champion 메소드에 Horse클래스의 horseChampion 메소드를 호출하여 객체 간의 상호작용을 할 수 있도록 해주었다.
 
 
 **<Horse 클래스>**
