@@ -18,7 +18,6 @@ public class Application {
             System.out.println("2번. 장애물 넘기");
             System.out.println("3번. 장외 밖으로 탈출");
             System.out.println("4번. 승/패");
-            System.out.println("9번. 경기 끝내기");
             System.out.println("☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆");
             System.out.println();
             System.out.print("번호를 입력하세요 : ");
@@ -38,7 +37,6 @@ public class Application {
                     break;
                 case 4 : gamer.champion();
                     break;
-
             }
             if(no==4){
                 System.out.println("경기가 끝났습니다!!!!!!!~");
