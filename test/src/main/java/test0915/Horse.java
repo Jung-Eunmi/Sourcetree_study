@@ -1,4 +1,4 @@
-package com.ohgiraffers.test0915;
+package test0915;
 
 import java.util.Random;
 
@@ -60,7 +60,7 @@ public class Horse {
                 case 0:
                     speedSecond += 100;
                     speedThird += 100;
-                    System.out.println("1번말!!!!!! " + speedFirst + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
+                    System.out.println("1번말ㅠㅠㅠㅠㅠㅠ " + speedFirst + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있습니다!!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!!");
                     horseCRT1();
@@ -72,7 +72,7 @@ public class Horse {
                     speedFirst += 100;
                     speedThird += 100;
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있습니다!!!!");
-                    System.out.println("2번말!!!!!! " + speedSecond + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
+                    System.out.println("2번말ㅠㅠㅠㅠㅠㅠ " + speedSecond + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!");
                     horseCRT1();
                     horseCRT2();
@@ -85,7 +85,7 @@ public class Horse {
                     speedSecond += 100;
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있습니다!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있습니다!!!!!!!");
-                    System.out.println("3번말!!!!!! " + speedThird + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
+                    System.out.println("3번말ㅠㅠㅠㅠㅠㅠ " + speedThird + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
@@ -176,79 +176,80 @@ public class Horse {
 
     public void horseCRT1() {
             if (speedFirst == 0) {
-                System.out.println("\uD83D\uDC0E");
+                System.out.println("\uD83D\uDC0E"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
             } else if (speedFirst == 100) {
-                System.out.println("  " + "\uD83D\uDC0E");
+                System.out.println("  " + "\uD83D\uDC0E" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
             } else if (speedFirst == 200) {
-                System.out.println("  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
             } else if (speedFirst == 300) {
-                System.out.println("  " + "  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
             } else if (speedFirst == 400) {
-                System.out.println("  " + "  " + "  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "  " + "  " + "\uD83D\uDC0E" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
             } else if (speedFirst == 500) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " +"||"+ "  ");
             } else if (speedFirst == 600) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " +"||"+ "  ");
             } else if (speedFirst == 700) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " +"||"+ "  ");
             } else if (speedFirst == 800) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " +"||"+ "  ");
             } else if (speedFirst == 900) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E" +"||"+ "  ");
             } else if (speedFirst == 1000) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83D\uDC0E");
             }
     }
 
     public void horseCRT2() {
         if (speedSecond==0){
-            System.out.println("\uD83E\uDD8D");
-        }else if (speedSecond==100){
-            System.out.println("  "+"\uD83E\uDD8D");
-        }else if (speedSecond==200){
-            System.out.println("  "+"  "+"\uD83E\uDD8D");
-        }else if (speedSecond==300){
-            System.out.println("  "+"  "+"  "+"\uD83E\uDD8D");
-        }else if (speedSecond==400) {
-            System.out.println("  " + "  " + "  " + "  " + "\uD83E\uDD8D");
-        }else if (speedSecond==500) {
-            System.out.println("  " + "  " + "  " + "  " +"  " + "\uD83E\uDD8D");
-        }else if (speedSecond==600) {
-            System.out.println("  " + "  " + "  " + "  " +"  " +"  " + "\uD83E\uDD8D");
-        }else if (speedSecond==700) {
-            System.out.println("  " + "  " + "  " + "  " +"  " +"  " +"  " + "\uD83E\uDD8D");
-        }else if (speedSecond==800) {
-            System.out.println("  " + "  " + "  " + "  " + "  " +"  " +"  " +"  " +"\uD83E\uDD8D");
-        }else if (speedSecond==900) {
-            System.out.println("  " + "  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"\uD83E\uDD8D");
-        }else if (speedSecond==1000) {
-            System.out.println("  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"  " + "\uD83E\uDD8D");
+            System.out.println("\uD83E\uDD8D"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
+        } else if (speedSecond == 100) {
+            System.out.println("  " + "\uD83E\uDD8D" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
+        } else if (speedSecond == 200) {
+            System.out.println("  " + "  " + "\uD83E\uDD8D"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
+        } else if (speedSecond == 300) {
+            System.out.println("  " + "  " + "  " + "\uD83E\uDD8D"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
+        } else if (speedSecond == 400) {
+            System.out.println("  " + "  " + "  " + "  " + "\uD83E\uDD8D" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
+        } else if (speedSecond == 500) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D"+ "  " + "  " + "  " + "  " +"||"+ "  ");
+        } else if (speedSecond == 600) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D"+ "  " + "  " + "  " +"||"+ "  ");
+        } else if (speedSecond == 700) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D"+ "  " + "  " +"||"+ "  ");
+        } else if (speedSecond == 800) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D"+ "  " +"||"+ "  ");
+        } else if (speedSecond == 900) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D" +"||"+ "  ");
+        } else if (speedSecond == 1000) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83E\uDD8D");
         }
     }
 
+
     public void horseCRT3() {
         if (speedThird==0){
-            System.out.println("\uD83D\uDC2A");
-        }else if (speedThird==100){
-            System.out.println("  "+"\uD83D\uDC2A");
-        }else if (speedThird==200){
-            System.out.println("  "+"  "+"\uD83D\uDC2A");
-        }else if (speedThird==300){
-            System.out.println("  "+"  "+"  "+"\uD83D\uDC2A");
-        }else if (speedThird==400) {
-            System.out.println("  " + "  " + "  " + "  " + "\uD83D\uDC2A");
-        }else if (speedThird==500) {
-            System.out.println("  " + "  " + "  " + "  " +"  " + "\uD83D\uDC2A");
-        }else if (speedThird==600) {
-            System.out.println("  " + "  " + "  " + "  " +"  " +"  " + "\uD83D\uDC2A");
-        }else if (speedThird==700) {
-            System.out.println("  " + "  " + "  " + "  " +"  " +"  " +"  " + "\uD83D\uDC2A");
-        }else if (speedThird==800) {
-            System.out.println("  " + "  " + "  " + "  " + "  " +"  " +"  " +"  " +"\uD83D\uDC2A");
-        }else if (speedThird==900) {
-            System.out.println("  " + "  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"\uD83D\uDC2A");
-        }else if (speedThird==1000) {
-            System.out.println("  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"  " + "\uD83D\uDC2A");
+            System.out.println("\uD83D\uDC2A"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
+        } else if (speedThird == 100) {
+            System.out.println("  " + "\uD83D\uDC2A" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
+        } else if (speedThird == 200) {
+            System.out.println("  " + "  " + "\uD83D\uDC2A"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
+        } else if (speedThird == 300) {
+            System.out.println("  " + "  " + "  " + "\uD83D\uDC2A"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
+        } else if (speedThird == 400) {
+            System.out.println("  " + "  " + "  " + "  " + "\uD83D\uDC2A" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
+        } else if (speedThird == 500) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A"+ "  " + "  " + "  " + "  " +"||"+ "  ");
+        } else if (speedThird == 600) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A"+ "  " + "  " + "  " +"||"+ "  ");
+        } else if (speedThird == 700) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A"+ "  " + "  " +"||"+ "  ");
+        } else if (speedThird == 800) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A"+ "  " +"||"+ "  ");
+        } else if (speedThird == 900) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A" +"||"+ "  ");
+        } else if (speedThird == 1000) {
+            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83D\uDC2A");
         }
     }
 

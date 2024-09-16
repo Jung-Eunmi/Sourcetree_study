@@ -1,4 +1,4 @@
-package com.ohgiraffers.test0915;
+package test0915;
 
 import java.util.Random;
 import java.util.Scanner;

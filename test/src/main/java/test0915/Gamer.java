@@ -1,4 +1,4 @@
-package com.ohgiraffers.test0915;
+package test0915;
 
 public class Gamer {
     private Horse horse = new Horse();
