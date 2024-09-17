@@ -1,6 +1,7 @@
 package test0915;
 
 public class Gamer {
+
     private Horse horse = new Horse();
 
     public void go() {
@@ -11,7 +12,7 @@ public class Gamer {
         horse.horseDown();
     }
 
-    public void Out() {
+    public void out() {
         horse.horseOut();
     }
 

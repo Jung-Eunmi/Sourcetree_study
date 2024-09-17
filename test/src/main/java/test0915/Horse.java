@@ -11,7 +11,9 @@ public class Horse {
     Random random = new Random();
 
     public void horseGo() {
+
         if(speedFirst <= 900 && speedSecond <= 900 && speedThird <= 900) {
+
             int horseNum = random.nextInt(3);
 
             switch (horseNum) {
@@ -23,8 +25,8 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
+
                 case 1:
                     speedSecond += 100;
                     System.out.println("1번말!!!!!!! " + speedFirst + "m 를 달리고 있습니다.");
@@ -33,8 +35,8 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
+
                 case 2:
                     speedThird += 100;
                     System.out.println("1번말!!!!!!! " + speedFirst + "m 를 달리고 있습니다.");
@@ -43,11 +45,11 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
 
             }
-        }else {
+
+        } else {
             System.out.println("이미 경기가 끝났어요!!");
         }
 
@@ -55,7 +57,9 @@ public class Horse {
 
     public void horseDown() {
         if(speedFirst <= 900 && speedSecond <= 900 && speedThird <= 900) {
-        int horseNum = random.nextInt(3);
+
+            int horseNum = random.nextInt(3);
+
             switch (horseNum) {
                 case 0:
                     speedSecond += 100;
@@ -66,8 +70,8 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
+
                 case 1:
                     speedFirst += 100;
                     speedThird += 100;
@@ -77,7 +81,6 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
 
                 case 2:
@@ -89,11 +92,11 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
 
             }
-        }else {
+
+        } else {
             System.out.println("이미 경기가 끝났어요!!");
         }
 
@@ -101,7 +104,9 @@ public class Horse {
 
     public void horseOut() {
         if(speedFirst <= 900 && speedSecond <= 900 && speedThird <= 900) {
-        int horseNum = random.nextInt(3);
+
+            int horseNum = random.nextInt(3);
+
             switch (horseNum) {
                 case 0:
                     speedFirst = 0;
@@ -111,8 +116,8 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
+
                 case 1:
                     speedSecond = 0;
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있는데요!!!");
@@ -121,7 +126,6 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
 
                 case 2:
@@ -132,10 +136,11 @@ public class Horse {
                     horseCRT1();
                     horseCRT2();
                     horseCRT3();
-
                     break;
+
             }
-        }else {
+
+        } else {
             System.out.println("이미 경기가 끝났어요!!");
         }
 
@@ -144,6 +149,7 @@ public class Horse {
     public void horseChampion() {
         if (speedFirst >= 1000) {
             System.out.println("1번말 승리\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89");
+
             if (speedSecond >= 1000) {
                 System.out.println("2번말 공동승리\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89");
             }
@@ -154,6 +160,7 @@ public class Horse {
 
         } else if (speedSecond >= 1000) {
             System.out.println("2번말 승리\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89");
+
             if (speedFirst >= 1000) {
                 System.out.println("1번말 공동승리\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89");
             }
@@ -161,8 +168,10 @@ public class Horse {
             if (speedThird >= 1000) {
                 System.out.println("3번말 공동승리\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89");
             }
+
         } else if (speedThird >= 1000) {
             System.out.println("3번말 승리\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89");
+
             if (speedFirst >= 1000) {
                 System.out.println("1번말 공동승리\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89");
             }
@@ -170,37 +179,42 @@ public class Horse {
             if (speedSecond >= 1000) {
                 System.out.println("3번말 공동승리\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89\uD83C\uDF89");
             }
+
         }
+
     }
 
 
     public void horseCRT1() {
-            if (speedFirst == 0) {
+
+        if (speedFirst == 0) {
                 System.out.println("\uD83D\uDC0E"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
-            } else if (speedFirst == 100) {
+        } else if (speedFirst == 100) {
                 System.out.println("  " + "\uD83D\uDC0E" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
-            } else if (speedFirst == 200) {
+        } else if (speedFirst == 200) {
                 System.out.println("  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
-            } else if (speedFirst == 300) {
+        } else if (speedFirst == 300) {
                 System.out.println("  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
-            } else if (speedFirst == 400) {
+        } else if (speedFirst == 400) {
                 System.out.println("  " + "  " + "  " + "  " + "\uD83D\uDC0E" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
-            } else if (speedFirst == 500) {
+        } else if (speedFirst == 500) {
                 System.out.println("  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " +"||"+ "  ");
-            } else if (speedFirst == 600) {
+        } else if (speedFirst == 600) {
                 System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " +"||"+ "  ");
-            } else if (speedFirst == 700) {
+        } else if (speedFirst == 700) {
                 System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " +"||"+ "  ");
-            } else if (speedFirst == 800) {
+        } else if (speedFirst == 800) {
                 System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " +"||"+ "  ");
-            } else if (speedFirst == 900) {
+        } else if (speedFirst == 900) {
                 System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E" +"||"+ "  ");
-            } else if (speedFirst == 1000) {
+        } else if (speedFirst == 1000) {
                 System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83D\uDC0E");
-            }
+        }
+
     }
 
     public void horseCRT2() {
+
         if (speedSecond==0){
             System.out.println("\uD83E\uDD8D"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
         } else if (speedSecond == 100) {
@@ -224,10 +238,12 @@ public class Horse {
         } else if (speedSecond == 1000) {
             System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83E\uDD8D");
         }
+
     }
 
 
     public void horseCRT3() {
+
         if (speedThird==0){
             System.out.println("\uD83D\uDC2A"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
         } else if (speedThird == 100) {
@@ -251,10 +267,8 @@ public class Horse {
         } else if (speedThird == 1000) {
             System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83D\uDC2A");
         }
+
     }
-
-
-
 
 }
 

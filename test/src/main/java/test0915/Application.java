@@ -32,7 +32,7 @@ public class Application {
                 case 2 : gamer.down();
                     System.out.println();
                     break;
-                case 3 : gamer.Out();
+                case 3 : gamer.out();
                     System.out.println();
                     break;
                 case 4 : gamer.champion();
