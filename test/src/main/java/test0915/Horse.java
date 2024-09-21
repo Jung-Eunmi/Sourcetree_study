@@ -22,9 +22,9 @@ public class Horse {
                     System.out.println("1번말!!!!!!! " + speedFirst + "m 를 달리고 있습니다.");
                     System.out.println("2번말!!!!!!! " + speedSecond + "m 를 달리고 있습니다.");
                     System.out.println("3번말!!!!!!! " + speedThird + "m 를 달리고 있습니다.");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
                     break;
 
                 case 1:
@@ -32,9 +32,9 @@ public class Horse {
                     System.out.println("1번말!!!!!!! " + speedFirst + "m 를 달리고 있습니다.");
                     System.out.println("2번말!!!!!!! " + speedSecond + "m 를 달리고 있습니다.");
                     System.out.println("3번말!!!!!!! " + speedThird + "m 를 달리고 있습니다.");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
                     break;
 
                 case 2:
@@ -42,9 +42,9 @@ public class Horse {
                     System.out.println("1번말!!!!!!! " + speedFirst + "m 를 달리고 있습니다.");
                     System.out.println("2번말!!!!!!! " + speedSecond + "m 를 달리고 있습니다.");
                     System.out.println("3번말!!!!!!! " + speedThird + "m 를 달리고 있습니다.");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
                     break;
 
             }
@@ -67,9 +67,9 @@ public class Horse {
                     System.out.println("1번말ㅠㅠㅠㅠㅠㅠ " + speedFirst + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있습니다!!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!!");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedThird,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
 
                     break;
 
@@ -79,9 +79,9 @@ public class Horse {
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있습니다!!!!");
                     System.out.println("2번말ㅠㅠㅠㅠㅠㅠ " + speedSecond + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
                     break;
 
                 case 2:
@@ -90,9 +90,9 @@ public class Horse {
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있습니다!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있습니다!!!!!!!");
                     System.out.println("3번말ㅠㅠㅠㅠㅠㅠ " + speedThird + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
                     break;
 
             }
@@ -114,9 +114,9 @@ public class Horse {
                     System.out.println("1번말!!!이게 무슨일이죠!!!경기장밖으로 나갔습니다!!" + speedFirst + "m에서 다시 시작합니다!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있는데요!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!!");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
                     break;
 
                 case 1:
@@ -124,9 +124,9 @@ public class Horse {
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있는데요!!!");
                     System.out.println("2번말!!!이게 무슨일이죠!!!경기장밖으로 나갔습니다!!" + speedSecond + "m에서 다시 시작합니다!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!!");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
                     break;
 
                 case 2:
@@ -134,9 +134,9 @@ public class Horse {
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있는데요!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있습니다!!!!!!!!");
                     System.out.println("3번말!!!이게 무슨일이죠!!!경기장밖으로 나갔습니다!!" + speedThird + "m에서 다시 시작합니다!!!");
-                    horseCRT1(speedFirst,"\uD83D\uDC0E");
-                    horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT(speedFirst,"\uD83D\uDC0E");
+                    horseCRT(speedSecond,"\uD83E\uDD8D");
+                    horseCRT(speedThird,"\uD83D\uDC2A");
                     break;
 
             }
@@ -186,7 +186,7 @@ public class Horse {
     }
 
 
-    public void horseCRT1(int frist, String second) {
+    public void horseCRT(int frist, String second) {
 
         if (frist == 0) {
                 System.out.println(second+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
@@ -214,62 +214,7 @@ public class Horse {
 
     }
 
-    public void horseCRT2() {
-
-        if (speedSecond==0){
-            System.out.println("\uD83E\uDD8D"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
-        } else if (speedSecond == 100) {
-            System.out.println("  " + "\uD83E\uDD8D" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
-        } else if (speedSecond == 200) {
-            System.out.println("  " + "  " + "\uD83E\uDD8D"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
-        } else if (speedSecond == 300) {
-            System.out.println("  " + "  " + "  " + "\uD83E\uDD8D"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
-        } else if (speedSecond == 400) {
-            System.out.println("  " + "  " + "  " + "  " + "\uD83E\uDD8D" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedSecond == 500) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D"+ "  " + "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedSecond == 600) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D"+ "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedSecond == 700) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D"+ "  " + "  " +"||"+ "  ");
-        } else if (speedSecond == 800) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D"+ "  " +"||"+ "  ");
-        } else if (speedSecond == 900) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83E\uDD8D" +"||"+ "  ");
-        } else if (speedSecond == 1000) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83E\uDD8D");
-        }
-
-    }
-
-
-    public void horseCRT3() {
-
-        if (speedThird==0){
-            System.out.println("\uD83D\uDC2A"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
-        } else if (speedThird == 100) {
-            System.out.println("  " + "\uD83D\uDC2A" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
-        } else if (speedThird == 200) {
-            System.out.println("  " + "  " + "\uD83D\uDC2A"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
-        } else if (speedThird == 300) {
-            System.out.println("  " + "  " + "  " + "\uD83D\uDC2A"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
-        } else if (speedThird == 400) {
-            System.out.println("  " + "  " + "  " + "  " + "\uD83D\uDC2A" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedThird == 500) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A"+ "  " + "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedThird == 600) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A"+ "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedThird == 700) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A"+ "  " + "  " +"||"+ "  ");
-        } else if (speedThird == 800) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A"+ "  " +"||"+ "  ");
-        } else if (speedThird == 900) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC2A" +"||"+ "  ");
-        } else if (speedThird == 1000) {
-            System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83D\uDC2A");
-        }
-
-    }
-
 }
+
+
 
