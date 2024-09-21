@@ -67,9 +67,10 @@ public class Horse {
                     System.out.println("1번말ㅠㅠㅠㅠㅠㅠ " + speedFirst + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있습니다!!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!!");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+
                     break;
 
                 case 1:
@@ -78,9 +79,9 @@ public class Horse {
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있습니다!!!!");
                     System.out.println("2번말ㅠㅠㅠㅠㅠㅠ " + speedSecond + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
                     break;
 
                 case 2:
@@ -185,30 +186,30 @@ public class Horse {
     }
 
 
-    public void horseCRT1() {
+    public void horseCRT1(int frist, String second) {
 
-        if (speedFirst == 0) {
-                System.out.println("\uD83D\uDC0E"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
-        } else if (speedFirst == 100) {
-                System.out.println("  " + "\uD83D\uDC0E" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
-        } else if (speedFirst == 200) {
-                System.out.println("  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
-        } else if (speedFirst == 300) {
-                System.out.println("  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
-        } else if (speedFirst == 400) {
-                System.out.println("  " + "  " + "  " + "  " + "\uD83D\uDC0E" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedFirst == 500) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedFirst == 600) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " + "  " +"||"+ "  ");
-        } else if (speedFirst == 700) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " + "  " +"||"+ "  ");
-        } else if (speedFirst == 800) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E"+ "  " +"||"+ "  ");
-        } else if (speedFirst == 900) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "\uD83D\uDC0E" +"||"+ "  ");
-        } else if (speedFirst == 1000) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"\uD83D\uDC0E");
+        if (frist == 0) {
+                System.out.println("second"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
+        } else if (frist == 100) {
+                System.out.println("  " + "second" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
+        } else if (frist == 200) {
+                System.out.println("  " + "  " + "second"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
+        } else if (frist == 300) {
+                System.out.println("  " + "  " + "  " + "second"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
+        } else if (frist == 400) {
+                System.out.println("  " + "  " + "  " + "  " + "second" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
+        } else if (frist == 500) {
+                System.out.println("  " + "  " + "  " + "  " + "  " + "second"+ "  " + "  " + "  " + "  " +"||"+ "  ");
+        } else if (frist == 600) {
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "second"+ "  " + "  " + "  " +"||"+ "  ");
+        } else if (frist == 700) {
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "second"+ "  " + "  " +"||"+ "  ");
+        } else if (frist == 800) {
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "second"+ "  " +"||"+ "  ");
+        } else if (frist == 900) {
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "second" +"||"+ "  ");
+        } else if (frist == 1000) {
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"second");
         }
 
     }
