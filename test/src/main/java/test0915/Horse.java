@@ -22,9 +22,9 @@ public class Horse {
                     System.out.println("1번말!!!!!!! " + speedFirst + "m 를 달리고 있습니다.");
                     System.out.println("2번말!!!!!!! " + speedSecond + "m 를 달리고 있습니다.");
                     System.out.println("3번말!!!!!!! " + speedThird + "m 를 달리고 있습니다.");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
                     break;
 
                 case 1:
@@ -32,9 +32,9 @@ public class Horse {
                     System.out.println("1번말!!!!!!! " + speedFirst + "m 를 달리고 있습니다.");
                     System.out.println("2번말!!!!!!! " + speedSecond + "m 를 달리고 있습니다.");
                     System.out.println("3번말!!!!!!! " + speedThird + "m 를 달리고 있습니다.");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
                     break;
 
                 case 2:
@@ -90,9 +90,9 @@ public class Horse {
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있습니다!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있습니다!!!!!!!");
                     System.out.println("3번말ㅠㅠㅠㅠㅠㅠ " + speedThird + "m에서 장애물에 걸렸습니다ㅠㅠㅠ!!!!!!");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
                     break;
 
             }
@@ -114,9 +114,9 @@ public class Horse {
                     System.out.println("1번말!!!이게 무슨일이죠!!!경기장밖으로 나갔습니다!!" + speedFirst + "m에서 다시 시작합니다!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있는데요!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!!");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
                     break;
 
                 case 1:
@@ -124,9 +124,9 @@ public class Horse {
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있는데요!!!");
                     System.out.println("2번말!!!이게 무슨일이죠!!!경기장밖으로 나갔습니다!!" + speedSecond + "m에서 다시 시작합니다!!!");
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!!");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
                     break;
 
                 case 2:
@@ -134,9 +134,9 @@ public class Horse {
                     System.out.println("1번말!!!!계속해서 " + speedFirst + "m를 달리고 있는데요!!!");
                     System.out.println("2번말!!!!계속해서 " + speedSecond + "m를 달리고 있습니다!!!!!!!!");
                     System.out.println("3번말!!!이게 무슨일이죠!!!경기장밖으로 나갔습니다!!" + speedThird + "m에서 다시 시작합니다!!!");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
                     break;
 
             }
