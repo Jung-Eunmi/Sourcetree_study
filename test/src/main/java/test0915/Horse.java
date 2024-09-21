@@ -42,9 +42,9 @@ public class Horse {
                     System.out.println("1번말!!!!!!! " + speedFirst + "m 를 달리고 있습니다.");
                     System.out.println("2번말!!!!!!! " + speedSecond + "m 를 달리고 있습니다.");
                     System.out.println("3번말!!!!!!! " + speedThird + "m 를 달리고 있습니다.");
-                    horseCRT1();
-                    horseCRT2();
-                    horseCRT3();
+                    horseCRT1(speedFirst,"\uD83D\uDC0E");
+                    horseCRT1(speedSecond,"\uD83E\uDD8D");
+                    horseCRT1(speedFirst,"\uD83D\uDC2A");
                     break;
 
             }
@@ -69,7 +69,7 @@ public class Horse {
                     System.out.println("3번말!!!!계속해서 " + speedThird + "m를 달리고 있습니다!!!!!!!!");
                     horseCRT1(speedFirst,"\uD83D\uDC0E");
                     horseCRT1(speedSecond,"\uD83E\uDD8D");
-                    horseCRT1(speedFirst,"\uD83D\uDC2A");
+                    horseCRT1(speedThird,"\uD83D\uDC2A");
 
                     break;
 
@@ -189,27 +189,27 @@ public class Horse {
     public void horseCRT1(int frist, String second) {
 
         if (frist == 0) {
-                System.out.println("second"+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
+                System.out.println(second+"  " + "  " + "  " + "  " +"  " +"  " +"  " +"  " +"  " +"||"+"  ");
         } else if (frist == 100) {
-                System.out.println("  " + "second" + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
+                System.out.println("  " + second + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||" + "  ");
         } else if (frist == 200) {
-                System.out.println("  " + "  " + "second"+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
+                System.out.println("  " + "  " + second+ "  " + "  " + "  " + "  " + "  " + "  " + "  " +"||"+ "  " );
         } else if (frist == 300) {
-                System.out.println("  " + "  " + "  " + "second"+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
+                System.out.println("  " + "  " + "  " + second+ "  " + "  " + "  " + "  " + "  "+ "  "+"||" + "  ");
         } else if (frist == 400) {
-                System.out.println("  " + "  " + "  " + "  " + "second" + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
+                System.out.println("  " + "  " + "  " + "  " + second + "  " + "  " + "  " + "  " + "  " +"||"+ "  ");
         } else if (frist == 500) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "second"+ "  " + "  " + "  " + "  " +"||"+ "  ");
+                System.out.println("  " + "  " + "  " + "  " + "  " + second+ "  " + "  " + "  " + "  " +"||"+ "  ");
         } else if (frist == 600) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "second"+ "  " + "  " + "  " +"||"+ "  ");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + second+ "  " + "  " + "  " +"||"+ "  ");
         } else if (frist == 700) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "second"+ "  " + "  " +"||"+ "  ");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + second+ "  " + "  " +"||"+ "  ");
         } else if (frist == 800) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "second"+ "  " +"||"+ "  ");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + second+ "  " +"||"+ "  ");
         } else if (frist == 900) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "second" +"||"+ "  ");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + second +"||"+ "  ");
         } else if (frist == 1000) {
-                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+"second");
+                System.out.println("  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "  " + "||"+second);
         }
 
     }
