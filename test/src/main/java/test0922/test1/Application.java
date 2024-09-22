@@ -1,8 +1,8 @@
-package test0922;
+package test0922.test1;
 
-import test0922.exception.DivideNotZeroException;
-import test0922.exception.ModNotZeroException;
-import test0922.exception.MultipleNotZeroException;
+import test0922.test1.exception.DivideNotZeroException;
+import test0922.test1.exception.ModNotZeroException;
+import test0922.test1.exception.MultipleNotZeroException;
 
 import java.util.Scanner;
 
