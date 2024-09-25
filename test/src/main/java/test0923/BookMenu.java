@@ -22,6 +22,7 @@ public class BookMenu {
             System.out.println("5. 끝내기 ");
             System.out.print("메뉴 번호 선택 : ");
             int no = sc.nextInt();
+            sc.nextLine();
 
             switch (no) {
 
@@ -40,6 +41,9 @@ public class BookMenu {
                 case 5:
                     System.out.println("프로그램이 종료됩니다.");
                     return;
+                default:
+                    System.out.println("다른 메뉴를 골라주세요");
+                    break;
             }
 
         }
@@ -66,7 +70,6 @@ public class BookMenu {
     }
 
     public String inputBookTitle() {
-        sc.nextLine();
         System.out.print("도서 제목 : ");
         return sc.nextLine();
 
