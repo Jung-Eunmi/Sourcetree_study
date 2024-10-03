@@ -1,4 +1,4 @@
-package test3;
+package test4;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,9 +14,9 @@ import static common.JDBCTemplate.getConnection;
 public class Application {
 
     public static void main(String[] args) {
-        //-- 원하는 행 조회
-        //-- EMPLOYEE 테이블에서 부서코드가 D9인 사원 조회
-
+        //-- 원하는 행과 컬럼 조회
+        //-- EMPLOYEE 테이블에서 급여가 300만원 이상인 사원의
+        //-- 사번, 이름, 부서코드, 급여를 조회하세요
         Connection con = getConnection();
 
         PreparedStatement pstmt = null;
@@ -27,12 +27,14 @@ public class Application {
 
         try {
             prop.loadFromXML(new FileInputStream("src/main/java/mapper/employee-query.xml"));
-            String query = prop.getProperty("SelectEmployee2");
+            String query = prop.getProperty("SelectEmployee3");
             pstmt = con.prepareStatement(query);
             rset = pstmt.executeQuery();
-
+            System.out.println("사번 이름 부서코드 급여");
             while (rset.next()){
-                System.out.println(rset.getString("EMP_NAME"));
+
+                System.out.println(rset.getString("EMP_ID")+" " + rset.getString("EMP_NAME") +" "+
+                        rset.getString("DEPT_CODE") +" "+ rset.getInt("SALARY"));
             }
 
         } catch (IOException e) {
@@ -41,8 +43,8 @@ public class Application {
             throw new RuntimeException(e);
         } finally {
             close(rset);
-            close(pstmt);
             close(con);
+            close(pstmt);
         }
 
     }

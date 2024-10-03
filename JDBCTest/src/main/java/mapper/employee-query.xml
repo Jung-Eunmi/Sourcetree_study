@@ -17,4 +17,15 @@
         WHERE
             DEPT_CODE = 'D9'
     </entry>
+    <entry key="SelectEmployee3">
+        SELECT
+            EMP_ID,
+            EMP_NAME,
+            DEPT_CODE,
+            SALARY
+        FROM
+            EMPLOYEE
+        WHERE
+            SALARY > 3000000
+    </entry>
 </properties>
