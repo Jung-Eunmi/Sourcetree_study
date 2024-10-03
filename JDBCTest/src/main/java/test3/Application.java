@@ -1,4 +1,4 @@
-package test2;
+package test3;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,8 +14,8 @@ import static common.JDBCTemplate.getConnection;
 public class Application {
 
     public static void main(String[] args) {
-        //-- 원하는 컬럼 조회
-        //-- EMPLOYEE 테이블의 사번, 이름 조회
+        //-- 원하는 행 조회
+        //-- EMPLOYEE 테이블에서 부서코드가 D9인 사원 조회
 
         Connection con = getConnection();
 
@@ -27,15 +27,12 @@ public class Application {
 
         try {
             prop.loadFromXML(new FileInputStream("src/main/java/mapper/employee-query.xml"));
-
-            String query = prop.getProperty("SelectEmployee1");
-
+            String query = prop.getProperty("SelectEmployee2");
             pstmt = con.prepareStatement(query);
-
             rset = pstmt.executeQuery();
 
             while (rset.next()){
-                System.out.println(rset.getString("EMP_ID")+rset.getString("EMP_NAME"));
+                System.out.println(rset.getString("EMP_NAME"));
             }
 
         } catch (IOException e) {
@@ -43,10 +40,11 @@ public class Application {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         } finally {
-            close(con);
             close(rset);
             close(pstmt);
+            close(con);
         }
+
 
     }
 
