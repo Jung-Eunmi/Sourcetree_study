@@ -33,7 +33,7 @@ public class Template {
 
     }
 
-    public void close(Connection con){
+    public static void close(Connection con){
         try {
             if(con != null & !con.isClosed()){
                 con.close();
@@ -43,7 +43,7 @@ public class Template {
         }
     }
 
-    public void close(Statement stmt){
+    public static void close(Statement stmt){
         try {
             if(stmt != null & !stmt.isClosed()){
                 stmt.close();
@@ -53,7 +53,7 @@ public class Template {
         }
     }
 
-    public void close(ResultSet rset){
+    public static void close(ResultSet rset){
         try {
             if(rset != null & !rset.isClosed()){
                 rset.close();
