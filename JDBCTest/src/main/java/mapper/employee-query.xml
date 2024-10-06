@@ -28,4 +28,16 @@
         WHERE
             SALARY > 3000000
     </entry>
+    <entry key="SelectEmployee4">
+        SELECT
+            EMP_NAME,
+            DEPT_CODE,
+            SALARY
+        FROM
+            employee
+        WHERE
+            DEPT_CODE = 'D6'
+            and
+            SALARY > 2000000;
+    </entry>
 </properties>
