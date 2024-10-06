@@ -2,9 +2,7 @@ package common;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 public class Template {
@@ -36,6 +34,32 @@ public class Template {
     }
 
     public void close(Connection con){
-        if(con != null & ){}
+        try {
+            if(con != null & !con.isClosed()){
+                con.close();
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void close(Statement stmt){
+        try {
+            if(stmt != null & !stmt.isClosed()){
+                stmt.close();
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void close(ResultSet rset){
+        try {
+            if(rset != null & !rset.isClosed()){
+                rset.close();
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
