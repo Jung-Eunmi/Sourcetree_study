@@ -9,7 +9,5 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "org.example.crud")
 @MapperScan(basePackages = "org.example.crud", annotationClass = Mapper.class)
 public class ContextConfig {
-    @
-
 
 }

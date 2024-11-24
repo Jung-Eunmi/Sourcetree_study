@@ -1,4 +1,4 @@
-package org.example.crud.model.dto;
+package org.example.crud.menu.model.dto;
 
 import lombok.*;
 
