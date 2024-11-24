@@ -19,11 +19,15 @@ public class MenuController {
         this.menuService = menuService;
     }
 
-    @GetMapping
+    @GetMapping("/all")
     public String allMenu(Model model){
 
-        List<MenuDTO> meunList = menuService.allMenu();
-        System.out.println("meunList = " + meunList);
+        List<MenuDTO> menuList = menuService.allMenu();
+        for(MenuDTO menu : menuList ){
+        System.out.println("menu = " + menu);}
+
+        model.addAttribute("menuList", menuList);
+
         return "/menu/all";
     }
 }
