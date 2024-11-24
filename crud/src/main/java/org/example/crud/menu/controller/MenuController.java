@@ -5,6 +5,8 @@ import org.example.crud.menu.model.service.MenuService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
@@ -29,5 +31,22 @@ public class MenuController {
         model.addAttribute("menuList", menuList);
 
         return "/menu/all";
+    }
+
+    @GetMapping("/code")
+    public void menuCode(){}
+
+    @PostMapping("/code")
+    public String menu(int menuCode, Model model){
+
+        MenuDTO menu = menuService.oneMenu(menuCode);
+        model.addAttribute("menu", menu);
+        System.out.println("menu = " + menu);
+        return "redirect:/menu/menuByCode";
+    }
+
+    @GetMapping("/menu/menuByCode")
+    public String menuByCodePage() {
+        return "menu/menuByCode";
     }
 }

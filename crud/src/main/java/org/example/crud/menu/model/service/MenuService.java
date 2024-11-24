@@ -3,6 +3,7 @@ package org.example.crud.menu.model.service;
 import org.example.crud.menu.model.dao.MenuMapper;
 import org.example.crud.menu.model.dto.MenuDTO;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.ModelAttribute;
 
 import java.util.List;
 
@@ -17,5 +18,10 @@ public class MenuService {
     public List<MenuDTO> allMenu() {
 
         return menuMapper.allMenu();
+    }
+
+    public MenuDTO oneMenu(int menuCode) {
+
+        return menuMapper.oneMenu(menuCode);
     }
 }

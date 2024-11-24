@@ -20,4 +20,13 @@
         WHERE
             ORDERABLE_STATUS = 'Y'
     </select>
+
+    <select id="oneMenu" resultMap="menuResultMap">
+        SELECT
+            *
+        FROM
+            TBL_MENU
+        WHERE
+            MENU_CODE = #{menuCode}
+    </select>
 </mapper>
